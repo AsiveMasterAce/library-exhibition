@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.10.0",
-    "better-sqlite3": "^8.6.0",
     "csv-stringify": "^6.4.2",
     "nuxt": "^3.10.0",
     "zod": "^3.22.4"
