@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  /* Libraries of the Future palette (from Coolors) */
+  --pal-1: #cad2c5; /* light */
+  --pal-2: #70960c; /* mid light */
+  --pal-3: #52796f; /* mid */
+  /* dark */
+  --pal-4: #354f52; 
+  --pal-4: #bfd200; /* dark */
+  --pal-5: #2f3e46; /* darkest */
+
+  /* Semantic aliases */
+  --bg-soft: var(--pal-1);
+  --muted: var(--pal-2);
+  --primary: var(--pal-3);
+  --accent: var(--pal-4);
+  --dark: var(--pal-5);
+  --lime-green: var(--pal-2);
+
+}
+
+@layer components {
+  .btn-ghost {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 1px solid rgba(82,121,111,0.3); /* #52796f @ 30% */
+    color: #52796f;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .15s ease, transform .12s ease;
+  }
+  .btn-ghost:hover {
+    background: rgba(82,121,111,0.08);
+  }
+
+  .avatar-placeholder {
+    @apply w-24 h-24 rounded-full flex items-center justify-center font-semibold;
+    background: var(--pal-1);
+    color: var(--dark);
+  }
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--pal-1); /* single soft shade for page background */
+  background: #ffffff;
+  color: var(--primary);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+html,
+body,
+#__nuxt {
+  width: 100%;
+  height: 100%;
+} 
+.container::before,
+.container::after {
+  display: none; /* removed decorative overlays to reduce heavy gradients */
+}
+
+/* Rotating animations */
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes rotate-reverse {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+/* Typography: stronger, darker headings and readable body text */
+h1, h2, h3, h4, .font-serif {
+  color: var(--dark);
+  font-weight: 700;
+}
+
+body, p, li, a {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+/* Make subtle elements softer */
+.text-muted { color: var(--muted); }

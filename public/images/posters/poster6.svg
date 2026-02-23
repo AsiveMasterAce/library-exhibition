@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="100%" height="100%" fill="#071029" />
+  <rect x="80" y="120" width="1040" height="1360" rx="12" fill="#081826" stroke="#FBBF24" stroke-width="6" />
+  <text x="50%" y="38%" dominant-baseline="middle" text-anchor="middle" fill="#FBBF24" font-family="Poppins, sans-serif" font-size="60">Preservation Matters</text>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" fill="#B9F18A" font-family="Poppins, sans-serif" font-size="30">Archive SA — 2023</text>
+</svg>

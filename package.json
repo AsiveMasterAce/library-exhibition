@@ -1,0 +1,25 @@
+{
+  "name": "library-exhibition",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "lint": "eslint . --ext .ts,.vue"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.10.0",
+    "better-sqlite3": "^8.6.0",
+    "csv-stringify": "^6.4.2",
+    "nuxt": "^3.10.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.6",
+    "@types/node": "^20.11.30",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.20.0",
+    "typescript": "^5.4.5"
+  }
+}
