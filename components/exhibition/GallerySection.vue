@@ -42,9 +42,9 @@
           class="w-full h-[60vh] object-contain bg-[#1f2d16]/90"
         />
         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#1f2d16]/80 to-transparent p-6">
-          <h3 class="text-[#c2cd4b] text-2xl font-bold">{{ currentPoster.title }}</h3>
-          <p class="text-[#c2cd4b]/80 mb-2">{{ currentPoster.exhibitor }} — {{ currentPoster.year }}</p>
-          <p class="text-[#c2cd4b]/90">{{ currentPoster.description }}</p>
+          <h3 class="text-[#fffceb] text-2xl font-bold">{{ currentPoster.title }}</h3>
+          <p class="text-[#c2fffcebcd4b]/80 mb-2">{{ currentPoster.exhibitor }} — {{ currentPoster.year }}</p>
+          <p class="text-[#fffceb]/90">{{ currentPoster.description }}</p>
           <div class="mt-4">
             <a
               :href="currentPoster.highres"
