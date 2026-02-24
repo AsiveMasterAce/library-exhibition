@@ -1,5 +1,5 @@
 <template>
-  <div class="tech-image-section relative py-12 flex items-center justify-center overflow-hidden">
+  <div class="tech-image-section relative py-12 flex items-center justify-center overflow-hidden rounded-2xl">
     <!-- Background Image -->
     <img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg" alt="Tech Library"
       class="absolute inset-0 w-full h-full object-cover brightness-[0.65]" />
