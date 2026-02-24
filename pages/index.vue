@@ -3,6 +3,7 @@
     <Navbar />
     <div class="min-h-screen text-accent container mx-auto">
         <HeroSection />
+          <FuturisticPatternSection />
         <AboutSection />
         <ProgrammeSection />
         <!-- <SpeakersSection /> -->
@@ -31,4 +32,5 @@ import RegisterCTA from '~/components/exhibition/RegisterCTA.vue';
   import PartnersSection from '~/components/exhibition/PartnersSection.vue';
   import MediaResources from '~/components/exhibition/MediaResources.vue';
   import ContactSection from '~/components/exhibition/ContactSection.vue';
+  import FuturisticPatternSection from '~/components/exhibition/FuturisticPatternSection.vue';
 </script>
