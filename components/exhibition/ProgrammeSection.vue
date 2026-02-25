@@ -1,5 +1,5 @@
 <template>
-  <section id="programme" class="py-20 px-4 bg-[#c2cd4bcf]/20 rounded-lg relative overflow-hidden">
+  <section id="programme" class="py-20 px-4 bg-[#77bc44]/20 rounded-lg relative overflow-hidden">
     <div class="max-w-5xl mx-auto">
       <!-- Title -->
       <div class="text-center mb-10">
@@ -34,14 +34,14 @@
           <a
             :href="programmeUrl"
             download
-            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold bg-[#c2cd4b] text-[#1f2d16] shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-xl"
+            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold bg-[#77bc44] text-[#1f2d16] shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-xl"
           >
             Download Programme (PDF)
           </a>
           <a
             :href="programmeUrl"
             target="_blank"
-            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold border border-[#c2cd4b] text-[#4a5b1a] transition-all duration-300 hover:bg-[#c2cd4b]/20"
+            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold border border-[#77bc44] text-[#4a5b1a] transition-all duration-300 hover:bg-[#77bc44]/20"
           >
             Open Programme
           </a>
@@ -150,7 +150,7 @@ onUnmounted(() => spotlight?.destroy())
   right: -50px;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(28, 66, 20, 0.4) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.2) 0%, transparent 70%);
   border-radius: 50%;
   z-index: 0;
   pointer-events: none;
@@ -164,7 +164,7 @@ onUnmounted(() => spotlight?.destroy())
   left: -50px;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(28, 66, 20, 0.4) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.2) 0%, transparent 70%);
   border-radius: 50%;
   z-index: 0;
   pointer-events: none;

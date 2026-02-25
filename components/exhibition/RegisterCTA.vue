@@ -8,7 +8,7 @@
     >
       Register for the Exhibition
       <!-- Moving gradient overlay -->
-      <span class="absolute inset-0 bg-gradient-to-r from-[#c2cd4b]/50 via-[#d4e157]/30 to-[#c2cd4b]/50 opacity-70 animate-gradient-slide pointer-events-none rounded-lg"></span>
+      <span class="absolute inset-0 bg-gradient-to-r from-[#77bc44]/50 via-[#a3d977]/30 to-[#77bc44]/50 opacity-70 animate-gradient-slide pointer-events-none rounded-lg"></span>
       <!-- Inner glow -->
       <span class="absolute inset-0 shadow-inner-glow pointer-events-none rounded-lg"></span>
     </NuxtLink>

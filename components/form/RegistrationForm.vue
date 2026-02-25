@@ -1,7 +1,7 @@
 <template>
   <form
     @submit.prevent="submit"
-    class="bg-[#c2cd4b]/10 p-8 rounded-xl shadow-2xl max-w-xl mx-auto flex flex-col gap-6 border border-[#c2cd4b]/20"
+    class="bg-[#77bc44]/10 p-8 rounded-xl shadow-2xl max-w-xl mx-auto flex flex-col gap-6 border border-[#c2cd4b]/20"
   >
     <h2 class="font-serif text-3xl text-[#1f2d16] mb-6 text-center">Register to Attend</h2>
 
@@ -107,7 +107,7 @@
     <button
       type="submit"
       :disabled="loading"
-      class="bg-[#c2cd4b] text-[#1f2d16] font-serif px-8 py-3 rounded-lg text-xl shadow-lg hover:scale-[1.03] hover:shadow-xl transition disabled:opacity-60"
+      class="bg-[#77bc44] text-[#1f2d16] font-serif px-8 py-3 rounded-lg text-xl shadow-lg hover:scale-[1.03] hover:shadow-xl transition disabled:opacity-60"
     >
       <span v-if="loading">Registering...</span>
       <span v-else>Submit Registration</span>

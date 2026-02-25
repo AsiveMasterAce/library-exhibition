@@ -1,6 +1,6 @@
 <template>
   <section
-    class="text-[var(--lime-green)] py-24 px-4 flex flex-col items-center justify-center min-h-[60vh] bg-gradient-to-b from-[#c2cd4bcf]/30 to-transparent">
+    class="text-[var(--lime-green)] py-24 px-4 flex flex-col items-center justify-center min-h-[60vh] bg-gradient-to-b from-[#77bc44]/30 to-transparent">
     <div class="max-w-5xl text-center">
       <h1 class="font-serif text-5xl md:text-6xl lg:text-7xl font-bold mb-6">Libraries of the Future Expo</h1>
       <p class="text-lg md:text-xl mb-6 max-w-3xl mx-auto text-[cad2c5]">Discover how libraries preserve our heritage,
@@ -8,22 +8,22 @@
         learning and connection.</p>
 
       <div class="mb-6">
-        <div class="inline-flex items-center gap-4 bg-[#c2cd4ba3]/30 px-4 py-3 rounded-lg">
+        <div class="inline-flex items-center gap-4 bg-[#77bc44]/30 px-4 py-3 rounded-lg">
           <div class="text-center">
             <div class="text-3xl font-semibold">{{ timeLeft.days }}</div>
             <div class="text-sm">Days</div>
           </div>
-          <div class="h-8 w-px bg-gold/40" />
+          <div class="h-8 w-px bg-[#77bc44]/40" />
           <div class="text-center">
             <div class="text-2xl font-semibold">{{ timeLeft.hours }}</div>
             <div class="text-sm">Hours</div>
           </div>
-          <div class="h-8 w-px bg-gold/40" />
+          <div class="h-8 w-px bg-[#77bc44]/40" />
           <div class="text-center">
             <div class="text-2xl font-semibold">{{ timeLeft.minutes }}</div>
             <div class="text-sm">Minutes</div>
           </div>
-          <div class="h-8 w-px bg-gold/40" />
+          <div class="h-8 w-px bg-[#77bc44]/40" />
           <div class="text-center">
             <div class="text-2xl font-semibold">{{ timeLeft.seconds }}</div>
             <div class="text-sm">Seconds</div>
@@ -33,16 +33,16 @@
       </div>
 
     <div class="flex gap-4 justify-center">
-        <NuxtLink to="/register" class="relative overflow-hidden bg-[#c2cd4b] text-[#1f2d16] 
+        <NuxtLink to="/register" class="relative overflow-hidden bg-[#77bc44] text-[#1f2d16] 
        px-6 py-3 rounded-lg font-semibold 
        shadow-lg transition-all duration-300 
        hover:scale-[1.03] hover:shadow-xl">
           Register Now</NuxtLink>
         <NuxtLink to="#schedule"
-        class="border border-[#c2cd4b] text-[#4a5b1a] 
+        class="border border-[#77bc44] text-[#4a5b1a] 
        px-6 py-3 rounded-lg font-semibold 
        transition-all duration-300 
-       hover:bg-[#c2cd4b]/20">
+       hover:bg-[#77bc44]/20">
           See Programme</NuxtLink>
       </div>
     </div>
