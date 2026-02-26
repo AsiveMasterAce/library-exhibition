@@ -77,9 +77,10 @@ const cards = ref<Card[]>([
     title: 'Digital Inclusion',
     summary: 'Bridging the digital divide through access, skills and connectivity.',
     details: 'Workshops, device lending, free connectivity pilots and skills clinics to ensure no one is left behind.',
-    bg: 'bg-indigo-50',
-    iconBg: 'bg-indigo-100 text-indigo-600',
-    glow: 'rgba(99,102,241,0.35)', // indigo glow
+    // Soft yellow border + very light fill
+    bg: 'border border-[#e4c860] bg-[#e4c860]/10',
+    iconBg: 'bg-[#d9ad2b] text-[#292929]',
+    glow: 'rgba(228,200,96,0.25)', // soft yellow glow
     icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
       <path stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M8 13a4 4 0 016 0'/>
       <path stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M2 13a10 10 0 0120 0'/>
@@ -91,9 +92,10 @@ const cards = ref<Card[]>([
     title: 'Knowledge Preservation',
     summary: 'Protecting and digitising heritage and local knowledge.',
     details: 'Digitisation stations, oral history projects and open archives for community access.',
-    bg: 'bg-rose-50',
-    iconBg: 'bg-rose-100 text-rose-600',
-    glow: 'rgba(244,63,94,0.35)', // rose glow
+    // Soft green border + very light fill
+    bg: 'border border-[#a6d680] bg-[#a6d680]/10',
+    iconBg: 'bg-[#4e852b] text-white',
+    glow: 'rgba(166,214,128,0.25)', // soft green glow
     icon: `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'>
       <path d='M12 3v10.15A4 4 0 1014 21v-9H7a1 1 0 01-1-1V4a1 1 0 011-1h6z'/>
     </svg>`,
@@ -103,9 +105,10 @@ const cards = ref<Card[]>([
     title: 'Community Empowerment',
     summary: 'Libraries as hubs for learning, entrepreneurship and civic engagement.',
     details: 'Pop-up maker spaces, mentoring sessions and community forums to spark local initiatives.',
-    bg: 'bg-emerald-50',
-    iconBg: 'bg-emerald-100 text-emerald-600',
-    glow: 'rgba(16,185,129,0.35)', // emerald glow
+    // Mostly white with a gentle green border
+    bg: 'border border-[#a6d680] bg-white',
+    iconBg: 'bg-[#a6d680] text-[#292929]',
+    glow: 'rgba(166,214,128,0.2)',
     icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
       <circle cx='12' cy='7' r='3' stroke-width='1.5'/>
     </svg>`,
@@ -115,9 +118,10 @@ const cards = ref<Card[]>([
     title: 'Advocacy & Partnerships',
     summary: 'Building collaborations across government, academia and civil society.',
     details: 'Policy roundtables, partnership showcases and strategic planning sessions to amplify impact.',
-    bg: 'bg-yellow-50',
-    iconBg: 'bg-yellow-100 text-yellow-600',
-    glow: 'rgba(234,179,8,0.35)', // yellow glow
+    // Neutral white with a soft grey border
+    bg: 'border border-[#767676] bg-white',
+    iconBg: 'bg-[#292929] text-[#e4c860]',
+    glow: 'rgba(118,118,118,0.2)',
     icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
       <path stroke-width='1.5' d='M12 12v9'/>
     </svg>`,

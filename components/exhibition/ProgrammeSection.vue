@@ -16,7 +16,7 @@
         <div
           v-for="day in days"
           :key="day.title"
-          class="relative p-4 sm:p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 transition-all duration-300 hover:-translate-y-2 overflow-hidden"
+          class="relative p-4 sm:p-6 rounded-xl bg-white/5 backdrop-blur-md transition-all duration-300 hover:-translate-y-2 overflow-hidden"
           :style="{ '--glow-color': day.glow }"
         >
           <div class="relative z-10">
@@ -34,14 +34,14 @@
           <a
             :href="programmeUrl"
             download
-            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold bg-[#77bc44] text-[#1f2d16] shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-xl"
+            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold bg-[#a6d680] text-[#292929] shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-xl"
           >
             Download Programme (PDF)
           </a>
           <a
             :href="programmeUrl"
             target="_blank"
-            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold border border-[#77bc44] text-[#4a5b1a] transition-all duration-300 hover:bg-[#77bc44]/20"
+            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold border border-[#a6d680] text-[#4e852b] transition-all duration-300 hover:bg-[#a6d680]/15"
           >
             Open Programme
           </a>
@@ -72,17 +72,17 @@ const days = ref([
   {
     title: 'Day 1',
     description: 'Envisioning the Future — Keynotes, Panels, Breakaways, Tech Showcase',
-    glow: 'rgba(99,102,241,0.35)',
+    glow: 'rgba(228,200,96,0.22)', // soft yellow glow
   },
   {
     title: 'Day 2',
     description: 'Building a Collaborative Future — Keynotes, Panels, Breakaways, Tech Showcase',
-    glow: 'rgba(16,185,129,0.35)',
+    glow: 'rgba(166,214,128,0.24)', // soft green glow
   },
   {
     title: 'Day 3',
     description: 'Crafting Libraries of the Future — Keynotes, Panels, Breakaways, Tech Showcase',
-    glow: 'rgba(234,179,8,0.35)',
+    glow: 'rgba(118,118,118,0.2)', // neutral soft grey glow
   },
 ])
 
