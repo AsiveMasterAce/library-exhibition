@@ -16,7 +16,7 @@
         <div
           v-for="day in days"
           :key="day.title"
-          class="relative p-4 sm:p-6 rounded-xl bg-white/5 backdrop-blur-md transition-all duration-300 hover:-translate-y-2 overflow-hidden"
+          class="relative p-4 sm:p-6 rounded-xl bg-[#e4c860]/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-2 overflow-hidden"
           :style="{ '--glow-color': day.glow }"
         >
           <div class="relative z-10">
