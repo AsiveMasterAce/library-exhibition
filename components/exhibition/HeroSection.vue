@@ -38,11 +38,12 @@
        shadow-lg transition-all duration-300 
        hover:scale-[1.03] hover:shadow-xl">
           Register Now</NuxtLink>
-        <NuxtLink to="#schedule"
-        class="border border-[#77bc44] text-[#4a5b1a] 
+      
+          <NuxtLink to="#schedule"
+        class="border bg-[#77bc44]/20 border-[#77bc44] text-[#4a5b1a] 
        px-6 py-3 rounded-lg font-semibold 
        transition-all duration-300 
-       hover:bg-[#77bc44]/20">
+       hover:bg-white/10 hover:border-[#77bc44]/50">
           See Programme</NuxtLink>
       </div>
     </div>

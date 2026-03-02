@@ -16,7 +16,7 @@
         <div
           v-for="day in days"
           :key="day.title"
-          class="relative p-4 sm:p-6 rounded-xl bg-[#e4c860]/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-2 overflow-hidden"
+          class="relative p-4 sm:p-6 rounded-xl bg-[#316a3e]/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-2 overflow-hidden"
           :style="{ '--glow-color': day.glow }"
         >
           <div class="relative z-10">
@@ -28,9 +28,9 @@
       </div>
 
       <!-- Buttons + QR -->
-      <div class="flex flex-col sm:flex-col md:flex-row items-center md:justify-between gap-6 md:gap-8">
-        <!-- Buttons stacked on mobile -->
-        <div class="flex flex-col sm:flex-col md:flex-row gap-4 w-full md:w-auto">
+      <div class="flex flex-col items-center gap-6 md:gap-8">
+        <!-- Buttons centered -->
+        <div class="flex flex-col sm:flex-col md:flex-row gap-4 w-full md:w-auto justify-center items-center">
           <a
             :href="programmeUrl"
             download
@@ -41,14 +41,14 @@
           <a
             :href="programmeUrl"
             target="_blank"
-            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold border border-[#a6d680] text-[#4e852b] transition-all duration-300 hover:bg-[#a6d680]/15"
+            class="w-full md:w-auto text-center px-6 py-3 rounded-lg font-semibold border bg-[#77bc44]/20 border-[#77bc44] text-[#4a5b1a] transition-all duration-300 hover:bg-white/10 hover:border-[#77bc44]/50"
           >
             Open Programme
           </a>
         </div>
 
         <!-- QR code -->
-        <aside class="text-center mt-4 md:mt-0">
+        <aside class="text-center mt-4">
           <img :src="qrSrc" alt="QR code to programme" class="w-28 sm:w-36 mx-auto mb-3 rounded-lg" />
           <div class="text-xs text-muted-foreground">Scan for full programme</div>
         </aside>

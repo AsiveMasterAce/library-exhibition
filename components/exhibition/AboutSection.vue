@@ -106,9 +106,9 @@ const cards = ref<Card[]>([
     summary: 'Libraries as hubs for learning, entrepreneurship and civic engagement.',
     details: 'Pop-up maker spaces, mentoring sessions and community forums to spark local initiatives.',
     // Mostly white with a gentle green border
-    bg: 'border border-[#a6d680] bg-white',
+    bg: 'border border-[#a6d680] bg-[#a6d680]/30',
     iconBg: 'bg-[#a6d680] text-[#292929]',
-    glow: 'rgba(166,214,128,0.2)',
+    glow: 'rgba(166,214,128,0.5)',
     icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
       <circle cx='12' cy='7' r='3' stroke-width='1.5'/>
     </svg>`,
@@ -119,11 +119,14 @@ const cards = ref<Card[]>([
     summary: 'Building collaborations across government, academia and civil society.',
     details: 'Policy roundtables, partnership showcases and strategic planning sessions to amplify impact.',
     // Neutral white with a soft grey border
-    bg: 'border border-[#767676] bg-white',
-    iconBg: 'bg-[#292929] text-[#e4c860]',
-    glow: 'rgba(118,118,118,0.2)',
+    bg: 'border border-[#e4c860] bg-[#eedf99]/20',
+    iconBg: 'bg-[#e4c860] text-[#804620]',
+    glow: 'rgba(222, 181, 65,0.2)',
     icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-      <path stroke-width='1.5' d='M12 12v9'/>
+      <circle cx='6' cy='8' r='2' stroke-width='1.5'/>
+      <circle cx='18' cy='8' r='2' stroke-width='1.5'/>
+      <circle cx='12' cy='16' r='2' stroke-width='1.5'/>
+      <path stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M8 8h8M8 9.5L12 14M16 9.5L12 14'/>
     </svg>`,
     pattern: `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 200'><path d='M0 40 C120 80 240 0 360 40' stroke='%23ffffff' stroke-width='5' fill='none' stroke-opacity='0.18'/></svg>`
   }
