@@ -8,10 +8,10 @@
         <ProgrammeSection />
         <!-- <SpeakersSection /> -->
         <!-- <ScheduleSection /> -->
+        <!-- <RegisterCTA /> -->
         <GallerySection />
         <PartnersSection />
         <!-- <MediaResources /> -->
-        <RegisterCTA />
         <ContactSection />
       <Footer />
     </div>
