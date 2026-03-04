@@ -36,10 +36,10 @@ const partners: Partner[] = [
   { name: 'University of Fort Hare', logo: '/images/logos/ufh.svg' },
   { name: 'Nelson Mandela University', logo: '/images/logos/nmu.png' },
   { name: 'Walter Sisulu University', logo: '/images/logos/wsu.png' },
-  { name: 'Library and Information Association of South Africa', logo: '/images/logos/liasa.png' },
+  { name: 'Library and Information Association of South Africa', logo: '/images/logos/liasa.jpg' },
   { name: 'Eastern Cape Government', logo: '/images/logos/logo_EC.png' },
   { name: 'BCM', logo: '/images/logos/BCM.png' },
-  { name: 'Department of Sport, Arts and Culture', logo: '/images/logos/DSAC_SALB.png' },
+  { name: 'Department of Sport, Arts and Culture', logo: '/images/logos/DSAC_SALB.jpg' },
 
 ]
 
