@@ -7,7 +7,7 @@
           <h1 class="font-serif text-3xl md:text-4xl mb-6 text-center">Register to Attend</h1>
           <iframe
             :src="msFormUrl"
-            class="w-full h-[800px] bg-white rounded-xl shadow-2xl border-0"
+            class="w-full h-[900px] bg-white rounded-xl shadow-2xl border-0"
             frameborder="0"
             marginwidth="0"
             marginheight="0"
