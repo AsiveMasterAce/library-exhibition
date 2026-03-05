@@ -6,9 +6,9 @@
         <div class="text-sm md:text-base self-center">
           <p class="mb-4">
             For enquiries, please email
-            <a href="mailto:communications@ecsrac.gov.za" class="text-gold">communications@ecsrac.gov.za</a>
+            <a href="mailto:SALWExpo@ecsrac.gov.za" class="text-gold">SALWExpo@ecsrac.gov.za</a>
             or call
-            <span class="font-semibold">043 492 1023</span>.
+            <span class="font-semibold">063 663 7791</span>.
           </p>
           <p class="mb-2 text-sm md:text-base">
             The event will be hosted at
