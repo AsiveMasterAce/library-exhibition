@@ -76,8 +76,8 @@ const posters = [
     title: 'Provincial SALW Poster 2026',
     exhibitor: 'Provincial SALW',
     year: 2026,
-    src: '/images/posters/Provincial_SALW_Poster_2026.jpg',
-    highres: '/images/posters/Provincial_SALW_Poster_2026.jpg',
+    src: '/images/posters/Provincial SALW Poster 2026.jpg',
+    highres: '/images/posters/Provincial SALW Poster 2026.jpg',
     description: 'Provincial SALW Poster 2026 highlighting awareness and engagement.'
   },
   // {
