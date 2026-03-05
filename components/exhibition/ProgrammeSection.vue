@@ -49,7 +49,7 @@
 
         <!-- QR code -->
         <aside class="text-center mt-4">
-          <img :src="qrSrc" alt="QR code to programme" class="w-28 sm:w-36 mx-auto mb-3 rounded-lg" />
+          <img src="/images/qr/qrcode.png" alt="QR code to programme" class="w-28 sm:w-36 mx-auto mb-3 rounded-lg" />
           <div class="text-xs text-muted-foreground">Scan for full programme</div>
         </aside>
       </div>
@@ -62,11 +62,8 @@
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import { useRuntimeConfig } from '#app'
 
-const programmeUrl = `${useRuntimeConfig().public.baseURL || ''}/programme.pdf`
-
-const qrSrc = computed(() =>
-  `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(programmeUrl)}`
-)
+const baseUrl = useRuntimeConfig().public.baseURL || ''
+const programmeUrl = `${baseUrl}/docs/Provincial%20SAWL%202026%20Programme.pdf`
 
 const days = ref([
   {
