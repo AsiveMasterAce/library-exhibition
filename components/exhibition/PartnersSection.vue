@@ -11,7 +11,7 @@
           <template v-for="(p, i) in extendedPartners" :key="`${p.name}-${i}`">
             <div class="partner-item min-w-[160px]" role="listitem">
               <div class="partner-link" :aria-label="p.name" tabindex="0">
-                <img :src="p.logo" :alt="p.name" class="partner-logo green-tint" />
+                <img :src="p.logo" :alt="p.name" class="partner-logo" />
               </div>
             </div>
           </template>
@@ -97,13 +97,13 @@ onMounted(() => {
 .partner-logo {
   max-height: 160px;
   display: block;
-  filter: grayscale(100%) contrast(0.95) opacity(0.95);
+  filter: none;
   transition: filter 0.28s ease, transform 0.28s ease, opacity 0.28s ease;
 }
 
 .partner-link:hover .partner-logo,
 .partner-link:focus .partner-logo {
-  filter: none;
+  filter: grayscale(100%);
   transform: translateY(-4px) scale(1.04);
   opacity: 1;
 }
@@ -111,10 +111,6 @@ onMounted(() => {
 .partner-link:focus {
   box-shadow: 0 0 0 4px rgba(34,197,94,0.12);
   border-radius: 6px;
-}
-
-.partner-logo.green-tint {
-  filter: grayscale(100%) sepia(18%) hue-rotate(70deg) saturate(28%);
 }
 
 /* Animation */
