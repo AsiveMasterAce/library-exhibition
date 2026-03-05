@@ -62,10 +62,19 @@
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import { useRuntimeConfig } from '#app'
 
-const programmeUrl = `${useRuntimeConfig().public.baseURL || ''}/programme.pdf`
+const baseUrl = useRuntimeConfig().public.baseURL || ''
+const programmeUrl = `${baseUrl}/docs/Provincial%20SAWL%202026%20Programme.pdf`
+
+const absoluteProgrammeUrl = computed(() => {
+  if (process.client && typeof window !== 'undefined') {
+    if (programmeUrl.startsWith('http')) return programmeUrl
+    return `${window.location.origin}${programmeUrl}`
+  }
+  return programmeUrl
+})
 
 const qrSrc = computed(() =>
-  `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(programmeUrl)}`
+  `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(absoluteProgrammeUrl.value)}`
 )
 
 const days = ref([
