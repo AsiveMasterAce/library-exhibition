@@ -5,7 +5,7 @@
       <ul class="list-disc pl-6 space-y-2">
         <li><a href="/press-release.pdf" class="text-gold">Press releases (PDF)</a></li>
         <li><a href="/speakers.pdf" class="text-gold">Speaker profiles (PDF)</a></li>
-        <li><a href="/programme.pdf" class="text-gold">Programme (PDF)</a></li>
+        <li><a href="/docs/Programme%20-%20Libraries%20of%20the%20Future%20Expo%202026.pdf" class="text-gold">Programme (PDF)</a></li>
       </ul>
     </div>
   </section>

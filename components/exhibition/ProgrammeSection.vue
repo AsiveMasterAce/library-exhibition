@@ -49,7 +49,7 @@
 
         <!-- QR code -->
         <aside class="text-center mt-4">
-          <img src="/images/qr/qrcode.png" alt="QR code to programme" class="w-28 sm:w-36 mx-auto mb-3 rounded-lg" />
+          <img src="/images/qr/newqrcode.png" alt="QR code to programme" class="w-28 sm:w-36 mx-auto mb-3 rounded-lg" />
           <div class="text-xs text-muted-foreground">Scan for full programme</div>
         </aside>
       </div>
