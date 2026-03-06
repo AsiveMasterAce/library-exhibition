@@ -63,7 +63,7 @@ import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import { useRuntimeConfig } from '#app'
 
 const baseUrl = useRuntimeConfig().public.baseURL || ''
-const programmeUrl = `${baseUrl}/docs/Provincial%20SAWL%202026%20Programme.pdf`
+const programmeUrl = `${baseUrl}/docs/Programme%20-%20Libraries%20of%20the%20Future%20Expo%202026.pdf`
 
 const days = ref([
   {

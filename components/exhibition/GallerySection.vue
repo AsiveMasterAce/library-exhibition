@@ -73,12 +73,39 @@ const modalPosterId = ref<number | null>(null)
 const posters = [
   {
     id: 1,
-    title: 'Provincial SALW Poster 2026',
+    title: 'Libraries of the Future Expo',
     exhibitor: 'Provincial SALW',
     year: 2026,
     src: '/images/posters/Provincial SALW Poster 2026.jpg',
     highres: '/images/posters/Provincial SALW Poster 2026.jpg',
-    description: 'Provincial SALW Poster 2026 highlighting awareness and engagement.'
+    description: 'Provincial SALW 2026 highlighting awareness and engagement.'
+  },
+  {
+    id: 2,
+    title: 'Programme Director & Panel Discussion Facilitator',
+    exhibitor: 'Okuhle Thombe',
+    year: 2026,
+    src: '/images/posters/Okuhle Poster.jpg',
+    highres: '/images/posters/Okuhle Poster.jpg',
+    description: 'Okuhle Thombe is a media practitioner and Content Producer for The Invasion Show...'
+  },
+  {
+    id: 3,
+    title: 'Programme Director & Panel Discussion Facilitator',
+    exhibitor: 'Miss Vee',
+    year: 2026,
+    src: '/images/posters/Miss Vee Poster.jpg',
+    highres: '/images/posters/Miss Vee Poster.jpg',
+    description: 'Azola Vanda is a dynamic South African broadcaster, seasoned journalist, and high-impact Programme Director...'
+  },
+  {
+    id: 4,
+    title: 'Programme Director',
+    exhibitor: 'Silk Damoyi',
+    year: 2026,
+    src: '/images/posters/Silk Damoyi.jpeg',
+    highres: '/images/posters/Silk Damoyi.jpeg',
+    description: 'Silk Damoyi is a dynamic communicator, public speaker, and media practitioner...'
   },
   // {
   //   id: 2,
