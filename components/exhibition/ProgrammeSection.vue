@@ -4,7 +4,7 @@
       <!-- Title -->
       <div class="text-center mb-10">
         <h2 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold mb-4 break-words leading-tight">
-          Expo Programme 
+          Provincial SAWL 2026 Programme
         </h2>
         <p class="text-lg text-muted-foreground max-w-2xl mx-auto">
           Overview of the three-day experience. Scan the QR code or download the full programme.
@@ -49,7 +49,7 @@
 
         <!-- QR code -->
         <aside class="text-center mt-4">
-          <img src="/images/qr/newqrcode.png" alt="QR code to programme" class="w-28 sm:w-36 mx-auto mb-3 rounded-lg" />
+          <img src="/images/qr/qrcode5.png" alt="QR code to programme" class="w-28 sm:w-36 mx-auto mb-3 rounded-lg" />
           <div class="text-xs text-muted-foreground">Scan for full programme</div>
         </aside>
       </div>
@@ -63,7 +63,7 @@ import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import { useRuntimeConfig } from '#app'
 
 const baseUrl = useRuntimeConfig().public.baseURL || ''
-const programmeUrl = `${baseUrl}/docs/Programme%20-%20Libraries%20of%20the%20Future%20Expo%202026.pdf`
+const programmeUrl = `${baseUrl}/docs/Provincial%20SAWL%202026%20Programme%20%28Website%29%2012%20march%202026.pdf`
 
 const days = ref([
   {
