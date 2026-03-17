@@ -3,7 +3,8 @@
     <Navbar />
     <div class="min-h-screen text-accent container mx-auto">
       <HeroSection />
-      <FuturisticPatternSection />
+      <CTASection />
+      <!-- <FuturisticPatternSection /> -->
       <AboutSection />
       <ProgrammeSection />
       <GallerySection />
@@ -21,6 +22,7 @@ import HeroSection from '~/components/exhibition/HeroSection.vue';
 import GallerySection from '~/components/exhibition/GallerySection.vue';
 import AboutSection from '~/components/exhibition/AboutSection.vue';
 import ProgrammeSection from '~/components/exhibition/ProgrammeSection.vue';
+import CTASection from '~/components/exhibition/CTASection.vue';
 import PartnersSection from '~/components/exhibition/PartnersSection.vue';
 import ContactSection from '~/components/exhibition/ContactSection.vue';
 import FuturisticPatternSection from '~/components/exhibition/FuturisticPatternSection.vue';
