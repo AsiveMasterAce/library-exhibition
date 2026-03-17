@@ -7,7 +7,7 @@
       playsinline
       class="absolute inset-0 w-full h-full object-cover"
     >
-      <source src="/videos/Library Exhibition .mp4" type="video/mp4" />
+      <source src="/videos/library-exhibition.mp4" type="video/mp4" />
     </video>
 
     <!-- Subtle Overlay -->

@@ -10,7 +10,7 @@
 						controls
 						class="absolute inset-0 w-full h-full object-cover"
 					>
-						<source src="/videos/Library Exhibition .mp4" type="video/mp4" />
+						<source src="/videos/library-exhibition.mp4" type="video/mp4" />
 					</video>
 					<div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/25 via-black/10 to-transparent"></div>
 				</div>
