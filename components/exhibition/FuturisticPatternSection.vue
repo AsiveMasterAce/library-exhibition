@@ -1,18 +1,24 @@
 <template>
   <div class="tech-image-section relative py-12 flex items-center justify-center overflow-hidden rounded-2xl">
-    <!-- Background Image -->
-    <img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg" alt="Tech Library"
-      class="absolute inset-0 w-full h-full object-cover brightness-[0.65]" />
+    <!-- Background Video -->
+    <video
+      autoplay
+      loop
+      playsinline
+      class="absolute inset-0 w-full h-full object-cover"
+    >
+      <source src="/videos/Library Exhibition .mp4" type="video/mp4" />
+    </video>
 
-    <!-- Gradient Overlay -->
+    <!-- Subtle Overlay -->
     <div class="absolute inset-0 bg-gradient-to-b
-             from-[rgba(194,205,75,0.15)]
-             via-[rgba(0,0,0,0.55)]
-             to-[rgba(0,0,0,0.85)]">
+             from-[rgba(194,205,75,0.12)]
+             via-[rgba(0,0,0,0.35)]
+             to-[rgba(0,0,0,0.55)]">
     </div>
 
     <!-- Content -->
-    <div class="relative z-10 text-center px-4 max-w-3xl">
+    <!-- <div class="relative z-10 text-center px-4 max-w-3xl">
       <h2 class="text-3xl md:text-5xl font-bold text-white drop-shadow-lg mb-4">
         Experience the Future
       </h2>
@@ -22,14 +28,14 @@
 
       </p>
 
-    </div>
+    </div> -->
   </div>
 
 </template>
 
 <style scoped>
 .tech-image-section {
-  min-height: 320px;
+  min-height: 380px;
   position: relative;
 }
 </style>
